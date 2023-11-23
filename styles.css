@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    background-color:cornsilk;
+}
+
+h2{
+    font-size: 40px;
+}
+input{
+    height: 30px;
+    width: 120px;
+    margin:2px;
+    border-radius: 5px;
+    border-color: hotpink;
+}
+
+
+
+#Add{
+    height: 35px;
+    width: 120px;
+    background-color:burlywood;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.score-box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+    width: calc(100% - 50%);
+    background-color:darkkhaki;
+    text-align:left;
+    margin-left:25%;
+    margin-top: 60px;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.score-box .firstName{
+    margin-left: 20px;
+}
+
+.score-box .lastName{
+    margin-left: 5px;
+}
+
+.score-box .country{
+    margin-left: 90px;
+}
+
+.score-box .score{
+    margin-left: 170px;
+    margin-right: 120px;
+}
+
+.score-box .time{
+   display: block;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.increment{
+    margin-right: 10px;
+    border-radius: 7px;
+    color: black;
+    border: none;
+}
+
+.decrement{
+    margin-right: 10px;
+    border-radius: 7px;
+    color: black;
+    border: none;
+}
+.Delete{
+    margin-right: 10px;
+    border-radius: 7px;
+    color: black;
+    border: none;
+}
+
+.increment:hover{
+    color: whitesmoke;
+    background-color: darkorchid;
+}
+.decrement:hover{
+    color: whitesmoke;
+    background-color: darkorchid;
+}
+.Delete:hover{
+    color: whitesmoke;
+    background-color: darkorchid;
+}
